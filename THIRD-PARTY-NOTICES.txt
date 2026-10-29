@@ -1,0 +1,15 @@
+﻿CAD Viewer includes the following third-party components, unmodified:
+
+- Open CASCADE Technology (OCCT) 8.0 native libraries (app\TK*.dll), via NetOcc 8.0.1.1-next.4
+  License: LGPL-2.1-only WITH OCCT-exception-1.0 (licenses\OCCT-LICENSE.txt)
+  Source: https://github.com/Open-Cascade-SAS/OCCT
+  The libraries are dynamically linked; you may replace them with your own build.
+- NetOcc .NET bindings (NetOcc.dll, app\NetOcc*.dll) - MIT, https://paulbuechner.github.io/netocc/
+  (licenses\NetOcc-NOTICE.txt)
+- cadmpeg 0.6.7 (app\tools\cadmpeg\cadmpeg.exe) - Apache-2.0 (licenses\cadmpeg-LICENSE.txt)
+- OpenSkp 1.3.0 (app\OpenSkp.dll) - MIT, https://openskp.com/
+- .NET 8 runtime and Windows Desktop runtime - MIT, https://github.com/dotnet/runtime
+- Microsoft Visual C++ 2015-2022 runtime (msvcp140*.dll, vcruntime140*.dll, concrt140.dll,
+  vccorlib140.dll) - redistributed app-local under the Microsoft Visual Studio redistributable terms.
+- Bundled native support libraries from the NetOcc package: FreeType, oneTBB, hwloc, zlib,
+  libpng, bzip2, Brotli - each under its own permissive license (FreeType License/BSD/zlib/MIT).
