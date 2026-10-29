@@ -19,7 +19,7 @@ A portable CAD viewing and measurement tool for Windows 10 / 11 (64-bit).
 - **CATProduct montajları:** ürün yapısı ve bileşen yerleşimleri dosyadan okunur, bileşenler montaj konumunda gösterilir
 - **CATPart PMI:** datum, GD&T ve tolerans değerleri doğrudan CATPart dosyasından okunup yüzeylere bağlanır
 - **Ölçüm:** mesafe, açı, yarıçap, kenar uzunluğu, alan, hacim/kütle, delik tablosu, et kalınlığı, kesit
-- **Dışa aktarma:** STEP, IGES, BREP, STL, OBJ, SKP; HTML ölçüm raporu
+- **Dışa aktarma:** STEP, IGES, BREP, STL, OBJ, PLY, glTF/GLB, VRML, SKP; HTML ölçüm raporu
 - **Komut satırı:** `cadviewer.cmd info parca.step`, `cadviewer.cmd measure parca.step --all --html --out rapor.html`
 
 ## Sistem gereksinimleri / Requirements
